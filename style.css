@@ -23,6 +23,18 @@ p {
     padding-left: 5px;
 }
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .titulosBrancos {
     text-decoration: underline;
     text-underline-position: below;
