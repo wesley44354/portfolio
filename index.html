@@ -9,15 +9,6 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <script src="https://kit.fontawesome.com/8dd542139c.js" crossorigin="anonymous"></script>
@@ -34,7 +25,9 @@
             </ul>
         </nav>
         <a class="cta" href="#contato">Contact</a>
-        <p class="menu cta">Menu</p>
+        <Div style="padding-top: 0,5rem;">
+            <p class="menu cta">Menu</p>
+        </Div>
     </header>
     <div id="mobile__menu" class="overlay">
         <a class="close">&times;</a>
@@ -46,7 +39,7 @@
     </div>
     <section class="jumbotron text-center corPrimaria">
         <div class="container">
-            <img class="foto-perfil" src="https://www.imagemhost.com.br/images/2021/07/10/download_InstaBlurrr.jpg"
+            <img class="foto-perfil" src="Images/logo.jpg"
                 alt="">
             <h1 class="jumbotron-heading textoBranco">Wesley Alves</h1>
             <p class="lead textoBranco">Unity-C#</p>
@@ -74,8 +67,10 @@
                             data-holder-rendered="true">
                         <div class="card-body">
                             <p class="card-text">Este é o meu projeto utilizando c#</p>
-                            <li>c#</li>
-                            <li>Unity</li>
+                            <ul style="padding-left: 5%;">
+                                <li>c#</li>
+                                <li>Unity</li>
+                            </ul>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <a href=""><button type="button" class="btn btn-sm btn-outline-success">Ver
@@ -96,7 +91,31 @@
                             data-holder-rendered="true">
                         <div class="card-body">
                             <p class="card-text">Este é o meu projeto utilizando c#</p>
-                            <ul>
+                            <ul style="padding-left: 5%;">
+                                <li>c#</li>
+                                <li>Unity</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href=""><button type="button" class="btn btn-sm btn-outline-success">Ver
+                                            projeto</button></a>
+                                    <a href=""><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://www.imagemhost.com.br/images/2021/07/10/2021-07-09.png"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Este é o meu projeto utilizando c#</p>
+                            <ul style="padding-left: 5%;">
                                 <li>c#</li>
                                 <li>Unity</li>
                             </ul>
@@ -155,8 +174,8 @@
     </section>
 
     <!--Footer-->
-    <footer class="text-center corSecundaria textoFooter">
-        <p class="textoBranco">Copyright 2021</p>
+    <footer id="ass" class="text-center corSecundaria textoFooter">
+        <div class="textoBranco text-footer">Copyright 2021</div>
     </footer>
 
     <script src="mobile.js"></script>
