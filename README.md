@@ -7,7 +7,7 @@ Projeto construído para portfólio
 
 ![preview](./Images/CapturaDeTelaOfMyProfile.png)
 
-[🔗Clique aqui para acessar](https://wesley44354.github.io/nlw-esports-explore/)
+[🔗Clique aqui para acessar](https://my-profile-3fe28.web.app/)
 
 
 ## 🧑🏽‍💻 Tecnologias:
