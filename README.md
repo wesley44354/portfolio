@@ -5,7 +5,7 @@
 
 Projeto construído para portfólio 
 
-![preview](./Images/CapturaDeTelaOfMyProfile.png)
+![preview](./public/Images/CapturaDeTelaOfMyProfile.png)
 
 [🔗Clique aqui para acessar](https://wesley44354.github.io/nlw-esports-explore/)
 
