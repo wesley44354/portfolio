@@ -1,9 +1,5 @@
-# NLW eSports
-
->Trilha Explorer
-
-
-Projeto construído para portfólio 
+# Meu Portifolio 
+>Projeto construído para portfólio 
 
 ![preview](./public/Images/CapturaDeTelaOfMyProfile.png)
 
