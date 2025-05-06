@@ -1,20 +1,19 @@
-# Meu Portifolio 
->Projeto construído para portfólio 
+# 💼 Meu Portfólio
+
+> Projeto construído para apresentar minhas habilidades e experiências como desenvolvedor.
 
 ![preview](./public/Images/CapturaDeTelaOfMyProfile.png)
 
-[🔗Clique aqui para acessar](https://my-profile-3fe28.web.app/)
+🔗 [Clique aqui para acessar o site](https://my-profile-3fe28.web.app/)
 
+---
 
-## 🧑🏽‍💻 Tecnologias:
+## 🧑🏽‍💻 Tecnologias Utilizadas
 
--HTML
--CSS
--JAVA-SCRIPT
--BOOTSTRAP
--GIT e GITHUB
+- HTML  
+- CSS  
+- JavaScript  
+- Bootstrap  
+- Git e GitHub  
 
-## 💙 Contato:
-  > ✉️  wesleyalvesdeveloper99@gmail.com
-
-  > 📞  5567998887913
+---
